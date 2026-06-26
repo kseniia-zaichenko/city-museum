@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Городской музей: постоянные экспозиции, временные выставки и история города."
+    >
+
+    <title>Городской музей: Главная</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container site-header__inner">
+            <a class="site-logo" href="index.html">
+                <span class="site-logo__small">
+                    Муниципальное учреждение культуры
+                </span>
+
+                <span class="site-logo__main">
+                    Городской музей
+                </span>
+            </a>
+
+            <nav class="main-nav" aria-label="Основная навигация">
+                <ul class="main-nav__list">
+                    <li>
+                        <a
+                            class="main-nav__link main-nav__link--active"
+                            href="index.html"
+                            aria-current="page"
+                        >
+                            Главная
+                        </a>
+                    </li>
+
+                    <li>
+                        <a
+                            class="main-nav__link"
+                            href="exhibition.html"
+                        >
+                            Экспозиция
+                        </a>
+                    </li>
+
+                    <li>
+                        <a
+                            class="main-nav__link"
+                            href="contacts.html"
+                        >
+                            Контакты
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero__paper">
+                    <p class="hero__overline">
+                        Городская летопись с 1912 года
+                    </p>
+
+                    <h1>
+                        История города, собранная по страницам
+                    </h1>
+
+                    <p class="hero__text">
+                        Откройте для себя редкие документы,
+                        предметы быта, произведения искусства
+                        и воспоминания жителей, сохранившие
+                        историю нашего города.
+                    </p>
+
+                    <a class="button" href="exhibition.html">
+                        Открыть экспозицию
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section
+            class="section"
+            aria-labelledby="exhibitions-title"
+        >
+            <div class="container">
+                <div class="section-heading">
+                    <p class="section-heading__number">
+                        Глава I
+                    </p>
+
+                    <h2 id="exhibitions-title">
+                        Выставки музея
+                    </h2>
+
+                    <p>
+                        Постоянные и временные экспозиции,
+                        посвящённые истории, культуре
+                        и людям нашего города.
+                    </p>
+                </div>
+
+                <div class="exhibitions-grid">
+                    <article
+                        class="exhibition-card exhibition-card--featured"
+                    >
+                        <figure class="exhibition-card__image">
+                            <img
+                                src="img/exhibitions/city-archive.png"
+                                alt="Старинная городская летопись, раскрытая на деревянной музейной подставке"
+                                loading="lazy"
+                            >
+
+                            <figcaption>
+                                Городская летопись
+                            </figcaption>
+                        </figure>
+
+                        <div class="exhibition-card__content">
+                            <p class="exhibition-card__date">
+                                Постоянная экспозиция
+                            </p>
+
+                            <h3>
+                                Город сквозь время
+                            </h3>
+
+                            <p>
+                                История основания и развития города:
+                                архивные фотографии, документы, карты
+                                и предметы повседневной жизни.
+                            </p>
+
+                            <a
+                                class="text-link"
+                                href="exhibition.html"
+                            >
+                                Подробнее об экспозиции
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="exhibition-card">
+                        <figure class="exhibition-card__image">
+                            <img
+                                src="img/exhibitions/letters-archive.jpg"
+                                alt="Страница старинного рукописного письма из музейного архива"
+                                loading="lazy"
+                            >
+
+                            <figcaption>
+                                Документы из фондов
+                            </figcaption>
+                        </figure>
+
+                        <div class="exhibition-card__content">
+                            <p class="exhibition-card__date">
+                                До 30 сентября
+                            </p>
+
+                            <h3>
+                                Письма из прошлого
+                            </h3>
+
+                            <p>
+                                Личные письма, дневники и открытки,
+                                рассказывающие о жизни горожан
+                                в разные исторические периоды.
+                            </p>
+
+                            <span class="exhibition-card__label">
+                                Временная выставка
+                            </span>
+                        </div>
+                    </article>
+
+                    <article class="exhibition-card">
+                        <figure class="exhibition-card__image">
+                            <img
+                                src="img/exhibitions/city-portraits.png"
+                                alt="Три музейных портрета известных жителей города в декоративных рамах"
+                                loading="lazy"
+                            >
+
+                            <figcaption>
+                                Музейная коллекция
+                            </figcaption>
+                        </figure>
+
+                        <div class="exhibition-card__content">
+                            <p class="exhibition-card__date">
+                                С 15 августа
+                            </p>
+
+                            <h3>
+                                Лица нашего города
+                            </h3>
+
+                            <p>
+                                Портреты художников, учёных,
+                                мастеров и общественных деятелей,
+                                повлиявших на развитие города.
+                            </p>
+
+                            <span class="exhibition-card__label">
+                                Новая выставка
+                            </span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="museum-note">
+            <div class="container">
+                <div class="museum-note__content">
+                    <p
+                        class="museum-note__mark"
+                        aria-hidden="true"
+                    >
+                        “
+                    </p>
+
+                    <div>
+                        <h2>
+                            Музей сохраняет память города
+                        </h2>
+
+                        <p>
+                            Каждая вещь в музейной коллекции
+                            является частью общей истории.
+                            Она помогает увидеть, как менялся город
+                            и как жили его жители.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container site-footer__inner">
+            <div>
+                <p class="site-footer__title">
+                    Городской музей
+                </p>
+
+                <p>
+                    История, сохранённая для будущего.
+                </p>
+            </div>
+
+            <p>
+                © 2026 Городской музей
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
